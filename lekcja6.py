@@ -5,10 +5,7 @@ b = float(input('Podaj dł. boku B: '))
 c = float(input('Podaj dł. boku C: '))
 if a + b >= c:
     print('Ok, da się z tego naspawać trójkąt.')
-    boki = list()
-    boki.append(a)
-    boki.append(b)
-    boki.append(c)
+    boki = [a, b, c]
     boki.sort()
     print('DEBUG:', boki)
     print('DEBUG:', a, b, c)
